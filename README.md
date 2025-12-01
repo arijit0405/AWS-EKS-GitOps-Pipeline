@@ -26,6 +26,38 @@ Generates kubeconfig for connecting to the cluster
 
 <img width="1165" height="621" alt="image" src="https://github.com/user-attachments/assets/7b17fe2d-aa2f-44d6-a793-9d732d5629e6" />
 
+2. Application Deployment – Kubernetes Manifests
+
+   Inside the manifests/ folder are:
+
+deployment.yaml — NGINX Deployment (2 replicas)
+
+service.yaml — ClusterIP service exposing the app
+
+ingress.yaml — Ingress for external access 
+
+The manifests were applied automatically using ArgoCD.
+
+
+3. GitOps with ArgoCD
+
+ArgoCD was installed in the cluster inside the argocd namespace.
+
+The ArgoCD Application definition is inside argocd/application.yaml.
+
+This Application watches the repository and deploys anything inside the manifests/ folder automatically.
+
+ArgoCD UI Access
+
+I accessed the ArgoCD UI using port-forwarding
+
+Then visited: https://localhost:9091
+
+<img width="1319" height="624" alt="image" src="https://github.com/user-attachments/assets/b0455fd6-5197-437b-bc6c-2e756590abe3" />
+
+
+
+
 
 
 
