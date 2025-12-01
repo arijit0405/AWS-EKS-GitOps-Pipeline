@@ -27,7 +27,9 @@ Generates kubeconfig for connecting to the cluster
 Commands used:
 
 terraform init
+
 terraform plan -out=tfplan
+
 terraform apply tfplan
 
 <img width="1165" height="621" alt="image" src="https://github.com/user-attachments/assets/7b17fe2d-aa2f-44d6-a793-9d732d5629e6" />
