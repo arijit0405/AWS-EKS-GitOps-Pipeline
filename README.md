@@ -1,5 +1,5 @@
-# devops-assignment
-Assignment for creating  a complete CI/CD infrastructure pipeline on AWS using Terraform, Kubernetes, ArgoCD.
+
+Project for creating  a complete CI/CD infrastructure pipeline on AWS using Terraform, Kubernetes, ArgoCD.
 
 This repository contains the code and configuration I used to build a complete CI/CD setup on AWS using Terraform, EKS, Kubernetes, and ArgoCD.
 
